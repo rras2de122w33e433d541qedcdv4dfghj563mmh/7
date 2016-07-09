@@ -136,7 +136,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
   
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 
@@ -212,7 +212,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
   
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 
@@ -272,7 +272,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
   
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 
@@ -327,7 +327,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
   
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 
@@ -384,7 +384,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
   
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 
@@ -438,7 +438,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
   
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 
@@ -493,7 +493,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
   
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 
@@ -562,7 +562,7 @@ $pmembersid= explode("\n",$txxt);
 }
 if($chat_id==$admin){
   apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => ' سلام قربان خوش آمدید😉
-برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
+برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 
 برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
 .',"parse_mode"=>"MARKDOWN", 'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
@@ -623,7 +623,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>$pmembersiddd[1]
   if($substr !="thisisnarimanfrombeatbotteam"){
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
 Get Out Of Here Idiot🖕
---------------------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار دارید 🚫
 لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
 }
@@ -641,7 +641,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     		
     		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => '
 یکی از گزینه ها را انتخاب کنید
-—---------------------------------------------
+➖➖➖➖➖➖➖➖➖
 🔶🔸 Clean Members
 🔶🔸پاک کردن لیست مخاطبین
 
@@ -664,34 +664,36 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 
 🔹`1.` */ban*
  قرار دادن مخاطب در لیست سیاه(با ریپلای) 
-—------------------------------
+➖➖➖➖➖➖➖➖➖
 🔹`2. `*/unban *
  پاک کردن مخاطب از لیست سیاه(با ریپلای)
-—------------------------------
+➖➖➖➖➖➖➖➖➖
 🔹`3. `*/setstart *
 اگر شخصی وارد ربات شما شود و */start* بزند این پیام  برای او ارسال میشود           */setstart* بزنید و در ادامه ی آن متن مورد نظر خود را بنویسید.
 مثال :
 */setstart* سلام چطوری؟ اگه پیامی داری واسه من همینجا بفرست😃
-—------------------------------
+➖➖➖➖➖➖➖➖➖
 🔹`4. `*/setdone *
 اگر شخصی در ربات برای شما پیامی بفرستد این پیام برای او ارسال میشود.
 مثال :
 */setdone* پیامت رسید صبر کن تا جواب بدم
 
-➖➖➖➖➖➖➖➖➖➖➖
+➖➖➖➖➖➖➖➖➖
 🔶 لیست دکمه  های موجود :
 
 🔸`1.`*Send To All*
 ارسال پیام متنی به همه ی کاربران
-—------------------------------
+➖➖➖➖➖➖➖➖➖
 🔸`2.`*Members*
 تعداد کاربران
-—------------------------------
+➖➖➖➖➖➖➖➖➖
 🔸`3.`*Blocked Users*
 تعداد کاربران در لیست سیاه
-—-------------------------------
+➖➖➖➖➖➖➖➖➖
 🔸`4.`*Settings*
 تنظیمان ربات
+➖➖➖➖➖➖➖➖➖
+🔸`5.`*Turbo*™
 
 .","parse_mode" =>"MARKDOWN",'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
@@ -726,7 +728,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     }
     else if ($text == "🔙 Back" && $chat_id==$admin) {
     		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان خوش آمدید😉
-برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
+برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 
 برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
 .', 'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
@@ -804,11 +806,11 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 
     	file_put_contents('banlist.txt',$addd);
     	apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Are Banned🚫,</b>
------------------
+➖➖➖➖➖➖➖➖➖
 شما در لیست سیاه قرار گرفتید🚫." ,"parse_mode" =>"HTML"));
 }
 		apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "Banned
-➖➖➖➖➖➖➖➖➖➖➖
+➖➖➖➖➖➖➖➖➖
 به لیست سیاه افزوده شد." ,"parse_mode" =>"HTML"));
     		}
     	if($text == "/unban"){
@@ -829,10 +831,10 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     	file_put_contents('banlist.txt',$adddd);
 }
 		apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "UnBanned
-------------------
+➖➖➖➖➖➖➖➖➖
 از لیست سیاه پاک شد." ,"parse_mode" =>"HTML"));
 		apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Have Been UnBanned⚙,</b>
------------------
+➖➖➖➖➖➖➖➖➖
 شما از لیست سیاه پاک شدید ⚙." ,"parse_mode" =>"HTML"));
     		}
     	}
