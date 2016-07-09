@@ -561,7 +561,7 @@ $pmembersid= explode("\n",$txxt);
 
 }
 if($chat_id==$admin){
-  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => ' سلام قربان حوش آمدید😉
+  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => ' سلام قربان خوش آمدید😉
 برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
 برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
 .',"parse_mode"=>"MARKDOWN", 'reply_markup' => array(
@@ -725,7 +725,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
         'resize_keyboard' => true)));
     }
     else if ($text == "🔙 Back" && $chat_id==$admin) {
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان حوش آمدید😉
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان خوش آمدید😉
 برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
 برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
 .', 'reply_markup' => array(
